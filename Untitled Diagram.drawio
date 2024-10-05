@@ -360,6 +360,28 @@
         <mxCell id="4709RAhHiRO5XMdh3wOW-111" value="AddressBearer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-800" y="1000" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4709RAhHiRO5XMdh3wOW-113" value="PhysicalVenue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4709RAhHiRO5XMdh3wOW-114" value="VirtualVenue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4709RAhHiRO5XMdh3wOW-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4709RAhHiRO5XMdh3wOW-97" target="4709RAhHiRO5XMdh3wOW-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-710" y="910" />
+              <mxPoint x="-594" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4709RAhHiRO5XMdh3wOW-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.833;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4709RAhHiRO5XMdh3wOW-114" target="4709RAhHiRO5XMdh3wOW-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-420" y="980" />
+              <mxPoint x="-700" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
