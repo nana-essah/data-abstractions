@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
   <diagram name="Page-1" id="OSy7XCyMZQnhONATMRoW">
-    <mxGraphModel dx="1659" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1161" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,6 +161,9 @@
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-41" value="&lt;div&gt;CohortAttendableItem&lt;/div&gt;&lt;div&gt;/EnrollmentItemAttendable&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNONhmg3Kdyi4qWfp6E7-44" target="zNONhmg3Kdyi4qWfp6E7-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-44" value="EnrollmentItemAttendance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="680" y="820" width="240" height="40" as="geometry" />
         </mxCell>
@@ -176,26 +179,14 @@
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-48" value="+ Attendable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="690" y="690" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-49" value="+&amp;nbsp;EnrollmentItemAttendable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="920" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-50" value="+ Attendance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="950" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-51" value="&lt;div&gt;+&amp;nbsp;EnrollmentItem&lt;/div&gt;&lt;div&gt;AttendableItemCompletion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="980" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-52" value="+ Type : Regular / Reschedule /Credit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1010" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNONhmg3Kdyi4qWfp6E7-53" target="zNONhmg3Kdyi4qWfp6E7-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-53" value="+&amp;nbsp;EnrollmentAttendableTokenBearer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-49" value="+ CohortAttendableItem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="700" y="890" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-54" value="+ EnrollmentItem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-51" value="&lt;div&gt;+&amp;nbsp;EnrollmentItem&lt;/div&gt;&lt;div&gt;AttendableItemCompletion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="700" y="860" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-52" value="+ Type : Regular / Reschedule /Credit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="930" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-55" value="EnrollmentItemCompletion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="80" y="320" width="240" height="40" as="geometry" />
@@ -234,7 +225,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-66" value="&lt;div&gt;Enrollment&lt;/div&gt;&lt;div&gt;AttendableSubscription&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="990" y="885" width="160" height="40" as="geometry" />
+          <mxGeometry x="1220" y="960" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-69" value="+ Cohort" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="870" y="530" width="180" height="30" as="geometry" />
@@ -256,6 +247,21 @@
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-75" value="PolicyValidationResult" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="70" y="1010" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-76" value="EnrollmentAttendance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-77" value="+ Enrollment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="840" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-78" value="+ Attendance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="870" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-79" value="+ EnrollmentAttandableTokenBearer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="900" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-81" value="+ EnrollmentAttendance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="920" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
