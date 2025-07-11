@@ -180,10 +180,10 @@
           <mxGeometry x="690" y="690" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-49" value="+ CohortAttendableItem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="890" width="200" height="30" as="geometry" />
+          <mxGeometry x="700" y="925" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-51" value="&lt;div&gt;+&amp;nbsp;EnrollmentItem&lt;/div&gt;&lt;div&gt;AttendableItemCompletion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="860" width="200" height="30" as="geometry" />
+          <mxGeometry x="700" y="895" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-52" value="+ Type : Regular / Reschedule /Credit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="1220" y="930" width="200" height="30" as="geometry" />
@@ -261,7 +261,10 @@
           <mxGeometry x="1220" y="900" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-81" value="+ EnrollmentAttendance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="700" y="920" width="200" height="30" as="geometry" />
+          <mxGeometry x="700" y="955" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-82" value="+ EnrollmentItem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="865" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
