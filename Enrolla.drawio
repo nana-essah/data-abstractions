@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
   <diagram name="Page-1" id="OSy7XCyMZQnhONATMRoW">
-    <mxGraphModel dx="1161" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,7 @@
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-50" value="+ Attendance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="700" y="950" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zNONhmg3Kdyi4qWfp6E7-51" value="+&amp;nbsp;EnrollmentItemCompletion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-51" value="&lt;div&gt;+&amp;nbsp;EnrollmentItem&lt;/div&gt;&lt;div&gt;AttendableItemCompletion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="700" y="980" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-52" value="+ Type : Regular / Reschedule /Credit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
@@ -190,6 +190,18 @@
         </mxCell>
         <mxCell id="zNONhmg3Kdyi4qWfp6E7-54" value="+ EnrollmentItem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="700" y="860" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-55" value="EnrollmentItemCompletion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-56" value="+&amp;nbsp;EnrollmentItem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-57" value="+&amp;nbsp;Enrollment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zNONhmg3Kdyi4qWfp6E7-58" value="&lt;div&gt;EnrollmentItem&lt;/div&gt;&lt;div&gt;AttendableItem&lt;/div&gt;&lt;div&gt;Completion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
